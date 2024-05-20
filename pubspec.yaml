@@ -1,0 +1,36 @@
+name: banco_digital
+description: A new Flutter application for a digital bank.
+
+publish_to: 'none' # Remove isso se você planeja publicar o pacote
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  share: ^2.0.4
+  camera: ^0.10.0+1
+  firebase_auth: ^4.0.1
+  http: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Ativos (assets) como imagens podem ser declarados aqui:
+  # assets:
+  #   - assets/images/
+
+  # Se você precisar de fontes personalizadas:
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
